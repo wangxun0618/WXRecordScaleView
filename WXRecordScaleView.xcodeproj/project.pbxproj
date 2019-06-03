@@ -13,8 +13,8 @@
 		289F2E611F4E76400010DE7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289F2E5F1F4E76400010DE7E /* Main.storyboard */; };
 		289F2E631F4E76400010DE7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 289F2E621F4E76400010DE7E /* Assets.xcassets */; };
 		289F2E661F4E76400010DE7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289F2E641F4E76400010DE7E /* LaunchScreen.storyboard */; };
-		289F2E731F4E76D40010DE7E /* WXXAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289F2E721F4E76D40010DE7E /* WXXAxisView.m */; };
-		289F2E761F4E76F20010DE7E /* WXScaleTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289F2E751F4E76F20010DE7E /* WXScaleTimeView.m */; };
+		A1E17EF5229686D7007EFA59 /* WXTimeRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E17EF4229686D7007EFA59 /* WXTimeRulerView.m */; };
+		A1E17EF822968A25007EFA59 /* WXAxisShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E17EF722968A25007EFA59 /* WXAxisShapeLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		289F2E621F4E76400010DE7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		289F2E651F4E76400010DE7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		289F2E671F4E76400010DE7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		289F2E711F4E76D40010DE7E /* WXXAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXXAxisView.h; sourceTree = "<group>"; };
-		289F2E721F4E76D40010DE7E /* WXXAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXXAxisView.m; sourceTree = "<group>"; };
-		289F2E741F4E76F20010DE7E /* WXScaleTimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXScaleTimeView.h; sourceTree = "<group>"; };
-		289F2E751F4E76F20010DE7E /* WXScaleTimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXScaleTimeView.m; sourceTree = "<group>"; };
+		A1E17EF3229686D7007EFA59 /* WXTimeRulerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXTimeRulerView.h; sourceTree = "<group>"; };
+		A1E17EF4229686D7007EFA59 /* WXTimeRulerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXTimeRulerView.m; sourceTree = "<group>"; };
+		A1E17EF622968A25007EFA59 /* WXAxisShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXAxisShapeLayer.h; sourceTree = "<group>"; };
+		A1E17EF722968A25007EFA59 /* WXAxisShapeLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXAxisShapeLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +89,10 @@
 		289F2E6D1F4E76500010DE7E /* WXRecordScaleView */ = {
 			isa = PBXGroup;
 			children = (
-				289F2E711F4E76D40010DE7E /* WXXAxisView.h */,
-				289F2E721F4E76D40010DE7E /* WXXAxisView.m */,
-				289F2E741F4E76F20010DE7E /* WXScaleTimeView.h */,
-				289F2E751F4E76F20010DE7E /* WXScaleTimeView.m */,
+				A1E17EF3229686D7007EFA59 /* WXTimeRulerView.h */,
+				A1E17EF4229686D7007EFA59 /* WXTimeRulerView.m */,
+				A1E17EF622968A25007EFA59 /* WXAxisShapeLayer.h */,
+				A1E17EF722968A25007EFA59 /* WXAxisShapeLayer.m */,
 			);
 			name = WXRecordScaleView;
 			sourceTree = "<group>";
@@ -128,8 +128,8 @@
 				TargetAttributes = {
 					289F2E521F4E76400010DE7E = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 7MX2VQ922N;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 579LR2T7CY;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -138,6 +138,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -170,10 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				289F2E5E1F4E76400010DE7E /* ViewController.m in Sources */,
+				A1E17EF822968A25007EFA59 /* WXAxisShapeLayer.m in Sources */,
 				289F2E5B1F4E76400010DE7E /* AppDelegate.m in Sources */,
-				289F2E761F4E76F20010DE7E /* WXScaleTimeView.m in Sources */,
 				289F2E581F4E76400010DE7E /* main.m in Sources */,
-				289F2E731F4E76D40010DE7E /* WXXAxisView.m in Sources */,
+				A1E17EF5229686D7007EFA59 /* WXTimeRulerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +222,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: simonxun@163.com (94KAS28N8E)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -270,6 +272,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: simonxun@163.com (94KAS28N8E)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -295,13 +298,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7MX2VQ922N;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 579LR2T7CY;
 				INFOPLIST_FILE = WXRecordScaleView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xun.WXRecordScaleView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xun.WXRecordScaleView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "64b35ad8-504f-44af-87bb-2b9a9375f3e2";
-				PROVISIONING_PROFILE_SPECIFIER = ACPublic2017Profile;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -309,13 +313,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7MX2VQ922N;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 579LR2T7CY;
 				INFOPLIST_FILE = WXRecordScaleView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = xun.WXRecordScaleView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xun.WXRecordScaleView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "64b35ad8-504f-44af-87bb-2b9a9375f3e2";
-				PROVISIONING_PROFILE_SPECIFIER = ACPublic2017Profile;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -338,6 +343,7 @@
 				289F2E6C1F4E76400010DE7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
